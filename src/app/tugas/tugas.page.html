@@ -1,0 +1,94 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>yntevaaprl</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">gak usah dilihat. lebih baik difollow biar sama-sama kenal.</ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Search</ion-title>
+    </ion-toolbar>
+
+    <!-- GRID -->
+    <ion-grid>
+      <ion-row>
+        <ion-searchbar class="searchbar" animated="true" placeholder="Search For Friends"></ion-searchbar>
+      </ion-row>
+    </ion-grid>
+
+  </ion-header>
+  <ion-content class="content">
+
+    <!-- LIST, IMAGE, BUTTON, TOAST -->
+    <ion-list>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/sela.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>sselaaaaaaa</h2>
+        </ion-label>
+        <ion-button id="toast1" slot="end" color="primary">Add Friend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast1" duration="3000" [buttons]="toastButton"
+          message="Sela Rahmawati"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/eka.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>ekkaaapp</h2>
+        </ion-label>
+        <ion-button id="toast2" slot="end" color="primary">Unfriend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast2" duration="3000" [buttons]="toastButton"
+          message="Eka Andria Putri"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/imel.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>imeliaaprianahh</h2>
+        </ion-label>
+        <ion-button id="toast3" slot="end" color="primary">Accept</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast3" duration="3000" [buttons]="toastButton"
+          message="Imelia Aprianah"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/putri.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>dnptri_</h2>
+        </ion-label>
+        <ion-button id="toast4" slot="end" color="primary">Unfriend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast4" duration="3000" [buttons]="toastButton"
+          message="Dina Putriana"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/tiara.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>tiaraanurainii</h2>
+        </ion-label>
+        <ion-button id="toast5" slot="end" color="primary">Unfriend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast5" duration="3000" [buttons]="toastButton"
+          message="Tiara Nuraini"></ion-toast>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</div>
